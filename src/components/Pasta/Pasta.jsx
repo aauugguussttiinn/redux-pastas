@@ -1,17 +1,16 @@
 import React from 'react';
 import { buyPastas } from 'redux/pastasActions';
+import { connect } from 'react-redux';
 
-const Pasta = () => {
+const Pasta = (props) => {
 
   return (
     <div>
-      <p>Here are my pasta</p>
-      <button>Buy more</button>
+      <p>Here are my pasta : { props.pastas } kg</p>
+      <button onCLick={ props.buyPastas }>Buy more</button>
     </div>
   );
 };
-
-export default Pasta;
 
 const mapStateToProps = (state) => {
   return {
@@ -24,3 +23,5 @@ const mapDispatchToProps = (dispatch) => {
     buyPastas: () => (dispatch(buyPastas()))
   };
 };
+
+export default connect(mapStateToProps, mapDispatchToProps)(Pasta)
