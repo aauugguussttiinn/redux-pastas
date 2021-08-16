@@ -7,7 +7,7 @@ const Pasta = (props) => {
   return (
     <div>
       <p>Here are my pasta : { props.pastas } kg</p>
-      <button onCLick={ props.buyPastas }>Buy more</button>
+      <button onClick={ props.buyPastas }>Buy more</button>
     </div>
   );
 };
