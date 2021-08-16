@@ -1,1 +1,1 @@
-export { buyPastas } from 'redux/actions/buyPasta';
+export { buyPastas } from './pastas/pastasActions';

@@ -1,6 +1,6 @@
 import React from 'react';
-import { buyPastas } from 'redux/pastasActions';
 import { connect } from 'react-redux';
+import { buyPastas } from '../../redux';
 
 const Pasta = (props) => {
 
