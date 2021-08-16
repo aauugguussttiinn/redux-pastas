@@ -8,7 +8,7 @@ const Rice = () => {
   const dispatch = useDispatch();
   
   return (
-    <div className="pasta-with-a-hook">
+    <div className="rice">
       <p>Number of rice in kg: { rice } </p>
       <button onClick={ () => dispatch(buyRice()) }>Buy more</button>
       <button onClick={ () => dispatch(eatRice()) }>Eat some</button>
