@@ -1,1 +1,1 @@
-export { buyPastas } from './pastas/pastasActions';
+export { buyPastas, eatPastas } from './pastas/pastasActions';

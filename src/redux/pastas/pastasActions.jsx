@@ -1,5 +1,5 @@
 // import { BUY_PASTAS, EAT_PASTAS } from "./pastasTypes";
-import { BUY_PASTAS } from "./pastasTypes";
+import { BUY_PASTAS, EAT_PASTAS } from "./pastasTypes";
 
 export const buyPastas = () => {
   return {
@@ -7,8 +7,8 @@ export const buyPastas = () => {
   };
 };
 
-// export const eatPastas = () => {
-//   return {
-//     type: EAT_PASTAS
-//   };
-// };
+export const eatPastas = () => {
+  return {
+    type: EAT_PASTAS
+  };
+};
