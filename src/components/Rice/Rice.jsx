@@ -9,7 +9,7 @@ const Rice = () => {
   
   return (
     <div className="rice">
-      <p>Number of rice in kg: { rice } </p>
+      <p>Number of rice in kg: { rice.rice } </p>
       <button onClick={ () => dispatch(buyRice()) }>Buy more</button>
       <button onClick={ () => dispatch(eatRice()) }>Eat some</button>
     </div>

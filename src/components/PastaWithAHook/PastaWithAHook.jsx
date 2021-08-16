@@ -9,7 +9,7 @@ const PastaWithAHook = () => {
   
   return (
     <div className="pasta-with-a-hook">
-      <p>Number of pasta kg: { pastas } </p>
+      <p>Number of pasta kg: { pastas.pastas } </p>
       <button onClick={ () => dispatch(buyPastas()) }>Buy more</button>
       <button onClick={ () => dispatch(eatPastas()) }>Eat some</button>
     </div>

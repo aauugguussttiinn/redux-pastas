@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div>
       <h1>Have a look at my pastas</h1>
-      <Pasta />
+      {/* <Pasta /> */}
       <PastaWithAHook />
       <Rice />
     </div>
