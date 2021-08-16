@@ -1,7 +1,7 @@
 import { BUY_RICE, EAT_RICE } from './riceTypes';
 
 const initialState = {
-  pastas: 2
+  rice: 2
 };
 
 const riceReducer = (state = initialState, action) => {
