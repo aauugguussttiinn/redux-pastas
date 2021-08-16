@@ -1,6 +1,7 @@
 import React from "react";
 // import { useSelector } from "react-redux";
 import Pasta from "components/Pasta/Pasta";
+import PastaWithAHook from "components/PastaWithAHook/PastaWithAHook";
 
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
     <div>
       <h1>Have a look at my pastas</h1>
       <Pasta />
+      <PastaWithAHook />
     </div>
   );
 };
