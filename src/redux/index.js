@@ -1,0 +1,1 @@
+export { buyPastas } from 'redux/actions/buyPasta';

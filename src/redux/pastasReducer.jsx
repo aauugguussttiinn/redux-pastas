@@ -1,4 +1,4 @@
-import { BUY_PASTAS } from 'redux/actions/pasta.action';
+import { BUY_PASTAS } from './pastasTypes';
 
 const initialState = {
   pastas: 4

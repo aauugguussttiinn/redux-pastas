@@ -1,5 +1,5 @@
 import { createStore } from 'redux';
-import pastasReducer from "./reducers/pasta.reducer";
+import pastasReducer from "./pastasReducer";
 
 let store = createStore(pastasReducer);
 
