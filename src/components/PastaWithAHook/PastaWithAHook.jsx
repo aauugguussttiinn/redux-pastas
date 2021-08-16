@@ -5,11 +5,12 @@ import { buyPastas } from '../../redux';
 const PastaWithAHook = () => {
   
   const pastas = useSelector(state => state.pastas);
+  const dispatch = useDispatch();
   
   return (
     <div className="pasta-with-a-hook">
       <p>Number of pasta kg: { pastas } </p>
-      <button>Buy more</button>
+      <button onClick={ () => dispatch(buyPastas()) }>Buy more</button>
     </div>
   );
 };
